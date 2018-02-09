@@ -1,0 +1,28 @@
+CREAR UN PROYECTO ANGULAR
+1. CDM INDICAR RUTA EN DONDE SE CREAR
+2. EJECUTAR ng new reforzamiento
+
+SUBIR EL SERVIDOR DE NG
+1. CMD SE UBICA EN LA RUTA DEL PROYECTO
+2. EJECUTAR ng serve
+
+CREAR NUEVO COMPONENTE
+1. En la terminal se ejeucta el comando sobre la ruta del proyecto
+  ng g c componentes/navbar   // donde navvar es el nombre del componente
+2. Revisar el app.module.ts para garantizar que este el nuevo componente
+3. Ahora se etiqueta en donde se necesite el componente <nombre_componente></nombre_componente>
+
+[]= Permite recibir eventos
+()= Permite llamar eventos
+
+// MANEJO DE FORMULARIOS
+ [(ngModel)]="nombre" // Permite almacenar en la variable nombre lo ingresado en la pagina
+ nota:
+ Hay que agregar esto en el NgModule, en el app.module.ts
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+@NgModule({
+    imports: [
+         FormsModule
+    ],
