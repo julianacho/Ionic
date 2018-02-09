@@ -7,7 +7,11 @@ import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { VariablesComponent } from './componentes/variables/variables.component';
 import { AtributosComponent } from './componentes/atributos/atributos.component';
 import { EstructuralesComponent } from './componentes/estructurales/estructurales.component';
+import { HttpComponent } from './componentes/http/http.component';
 
+// Se importa el servicio
+import { MutantesService } from './servicios/mutantes.service';
+import { HttpClientModule } from '@angular/common/Http';
 
 @NgModule({
   declarations: [
@@ -15,13 +19,18 @@ import { EstructuralesComponent } from './componentes/estructurales/estructurale
     NavbarComponent,
     VariablesComponent,
     AtributosComponent,
-    EstructuralesComponent
+    EstructuralesComponent,
+    HttpComponent
+
   ],
   imports: [
     BrowserModule,
-    FormsModule      
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    MutantesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

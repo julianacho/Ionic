@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EstructuralesComponent implements OnInit {
 
+  existo:boolean=false;
+  jugadores:string[]=["James","Tino","Tren","Falca"]
+
+
   constructor() { }
 
   ngOnInit() {

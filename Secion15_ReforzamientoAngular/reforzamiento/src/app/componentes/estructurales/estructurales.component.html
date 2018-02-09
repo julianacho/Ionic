@@ -1,3 +1,26 @@
-<p>
-  estructurales works!
-</p>
+<div class="container">
+
+
+
+<h1 *ngIf="existo"  >Existo</h1>
+<h1  *ngIf="!existo">No Existo</h1>
+
+<button type="button" class="btn btn-primary"
+  (click) = "existo=!existo">
+  Cambiar
+</button>
+
+<hr>
+<hr>
+<br>
+<ul class="list-group">
+  <li class="list-group-item"
+     *ngFor="let jg of jugadores; let i =index">
+    {{i+1}}-  {{jg}}
+  </li>
+
+</ul>
+
+{{jugadores[0]}}
+
+</div>

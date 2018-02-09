@@ -26,3 +26,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     imports: [
          FormsModule
     ],
+
+// CREAR SERVICIOS
+con linea de comando desde la ruta del PROYECTO
+ng g s servicios/mutantes
+1. en app.modules.ts se importa el servicio
+import { MutantesService } from './servicios/mutantes.service';
+2. Se adiciona el servicio en el providers
