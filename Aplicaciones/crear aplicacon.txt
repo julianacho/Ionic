@@ -1,0 +1,6 @@
+1. Crear Aplicacion:
+- ionic start myAppPrueba tabs
+
+2. Subir servidor prueba de la app
+- Se ubica en la ruta de la app
+- Se ejecuta:  ionic serve
