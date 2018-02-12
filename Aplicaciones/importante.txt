@@ -1,0 +1,9 @@
+-- COMANDOS DOC https://ionicframework.com/docs/
+Se ejecutan dentro de la ruta del proyecto
+- ionic docs
+- ionic link
+
+
+-- SUBIR AL DASHBORD
+1. Verificar que este en pro: ionic config set -g backend pro
+2. crerar la aplicacion en ionic: ionic link --create
