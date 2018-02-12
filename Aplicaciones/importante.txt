@@ -4,6 +4,12 @@ Se ejecutan dentro de la ruta del proyecto
 - ionic link
 
 
+--  crear SSH
+1. En la ventana de comandos GIT ejecutar ssh-keygen e ingresar la informacion que indica
+2. Al crear la aplicacion se selecciona la opcion que indica que usar un ssh key y da enter
+
+
 -- SUBIR AL DASHBORD
 1. Verificar que este en pro: ionic config set -g backend pro
 2. crerar la aplicacion en ionic: ionic link --create
+
