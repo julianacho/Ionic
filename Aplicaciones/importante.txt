@@ -26,3 +26,9 @@ git status : verifica el estado
 
 --- etiquetas lista
 reorder="true":Permite ordenar la lista
+
+-- crear paginas
+ionic generate page pagina1
+1. Crear la pagina
+2. Crear el archivo index.paginas.ts para reunir todas las paginas
+3. Hacer el import de index.paginas.ts en appmodule.ts e importarlas tambien en declarations y entryComponents
