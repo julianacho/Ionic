@@ -10,6 +10,16 @@ Se ejecutan dentro de la ruta del proyecto
 
 
 -- SUBIR AL DASHBORD
-1. Verificar que este en pro: ionic config set -g backend pro
-2. crerar la aplicacion en ionic: ionic link --create
+1. Ubicarse en la ruta de la app
+2. Verificar que este en pro: ionic config set -g backend pro
+3. crerar la aplicacion en ionic: ionic link --create
 
+--- Comandos GIT
+git status : verifica el estado
+1. subir todo al master local: git add .
+2. generar commit: git commit -m "MI primer commit"
+3. Hacer push : git push ionic master
+
+
+--- atajos atom
+- completar etiquetas ctr + e
