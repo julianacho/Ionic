@@ -23,3 +23,6 @@ git status : verifica el estado
 
 --- atajos atom
 - completar etiquetas ctr + e
+
+--- etiquetas lista
+reorder="true":Permite ordenar la lista
