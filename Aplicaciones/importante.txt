@@ -14,11 +14,16 @@ Se ejecutan dentro de la ruta del proyecto
 2. Verificar que este en pro: ionic config set -g backend pro
 3. crerar la aplicacion en ionic: ionic link --create
 
+
 --- Comandos GIT
 git status : verifica el estado
 1. subir todo al master local: git add .
 2. generar commit: git commit -m "MI primer commit"
 3. Hacer push : git push ionic master
+
+-- VERIFICAR EN git
+ionic git remote
+git remote add ionic git@git.ionicjs.com:julianacho/qrapp.git
 
 
 --- atajos atom

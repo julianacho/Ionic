@@ -1,0 +1,3 @@
+1. se ejecuta el comandos
+ionic g provider historial
+2. E sistema automaticamente crea la carpeta de providers , y ahy la carpeta del servicios

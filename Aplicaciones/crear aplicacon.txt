@@ -1,5 +1,6 @@
 1. Crear Aplicacion:
 - ionic start myAppPrueba tabs
+- ionic start myAppPrueba blank
 
 2. Subir servidor prueba de la app
 - Se ubica en la ruta de la app
