@@ -11,4 +11,4 @@ ionic cordova build android
 
 4. Conectar el celular en modo desarrollador y abrir el proyecto con el android studio
 
-5. ionic cordova emulate android 
+5. ionic cordova emulate android
