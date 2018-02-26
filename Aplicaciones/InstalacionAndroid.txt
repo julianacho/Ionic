@@ -1,5 +1,5 @@
 1. Ejecutar comando para instalar cordoba:
- npm install -g ionic cordova
+npm install -g ionic cordova
 
 2. Adicionar carpeta adnroid en el proyecto
 En la ruta del proyecto se ejecuta
