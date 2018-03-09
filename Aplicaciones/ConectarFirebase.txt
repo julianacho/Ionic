@@ -57,3 +57,8 @@ import { Platform } from 'ionic-angular';
 import { Facebook } from '@ionic-native/facebook';
 6. Tomar de ejemplo
 https://github.com/angular/angularfire2/blob/master/docs/ionic/v3.md
+
+----------
+PAGINAS
+https://developers.facebook.com
+https://ionicframework.com/docs/native/facebook/
