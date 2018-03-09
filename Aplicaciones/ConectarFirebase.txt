@@ -48,6 +48,7 @@ Funcionamiento se puede basar en https://github.com/angular/angularfire2/blob/ma
 1. Hay que compilar el proyecto en android
 2. Ejecutar el comando donde: APP_ID= Identificado de la aplicacion de facebook (1756883911042767) y APP_NAME=Nombre de la aplicacion en facebook (LoginBorrar)
 ionic cordova plugin add cordova-plugin-facebook4 --variable APP_ID="1756883911042767" --variable APP_NAME="LoginBorrar"
+ionic cordova plugin add cordova-plugin-facebook4 --variable APP_ID="2010230252526171" --variable APP_NAME="AppLoginVr1"
 3. Ejecutar el comando
 npm install --save @ionic-native/facebook
 4. En el app.modules.ts se debe importar e implementar en los providers:
