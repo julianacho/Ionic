@@ -1,0 +1,54 @@
+1. Descargar el Codelgniter
+2. Se configura el string de conexion en aplication/config/database.php
+3. Revisar ejemplos de implementacion de consultas
+https://www.codeigniter.com/user_guide/database/examples.html
+
+/******************************
+EJECUCION DE SERVICIOS
+*****************************/
+// Lama el idex de la clase
+http://localhost:8080/rest/index.php/prueba
+// Lama funcion de la clase
+http://localhost:8080/rest/index.php/prueba/obtener_arreglo
+// Enviar parametros
+http://localhost:8080/rest/index.php/prueba/obtener_arreglo/1
+// COnsulta enviando parametros (COdigo Usuario)
+http://localhost:8080/rest/index.php/prueba/obtener_informacion_albun_usuario/1
+
+
+
+
+
+
+
+/***********************************
+SERVICIOS PANINI
+***********************************/
+// Consulta de las fichas de un Usuario de un albon especifico
+Get: http://localhost:8080/rest/index.php/album/obtener_informacion_albun_usuario/59915aa41a1ead79412005bf8ebc157d19515871/3/1
+https://app-1520633753.000webhostapp.com/rest/index.php/album/obtener_informacion_albun_usuario/59915aa41a1ead79412005bf8ebc157d19515871/3/1
+Parametro 1 : Token
+Parametro 2 : IdUsuario
+Parametro 3 : IdAlbum
+
+// Crear usuario
+post: http://localhost:8080/rest/index.php/usuario/crear_usuario/
+https://app-1520633753.000webhostapp.com/rest/index.php/usuario/crear_usuario/
+
+parametros:
+* USUA_NOMBRE
+* USUA_CORREO
+* USUA_CLAVE
+* USUA_CELULAR es opcional
+
+// Validar usuario
+post: http://localhost:8080/rest/index.php/login
+https://app-1520633753.000webhostapp.com/rest/index.php/login
+Parametros:
+* USUA_CORREO
+* USUA_CLAVE
+
+
+// Registrar Ficha
+
+// Eliminar ficha
