@@ -1,0 +1,14 @@
+1. Crear proyecto en firebase
+2. Crear pagina login
+ionic generate page login
+3. Hacer el import de login.ts en appmodule.ts e importarlas tambien en declarations y entryComponents
+4. Copiar las img y el estilo de login.css
+5. Copiar el login.html y las funciones de login.ts
+6. Instalar geoloalizacion
+ionic cordova plugin add cordova-plugin-geolocation
+npm install --save @ionic-native/geolocation
+7. Prooveer en el appmodule
+8. Se crea un servicio llamado ubicacion
+ionic g provider ubicacion
+9. Declarar y prooveer en el appmodule el servicio
+UbicacionProvider
