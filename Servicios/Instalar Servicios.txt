@@ -17,31 +17,27 @@ http://localhost:8080/rest/index.php/prueba/obtener_informacion_albun_usuario/1
 
 
 
-
-
-
-
 /***********************************
 SERVICIOS PANINI
 ***********************************/
 // Consulta de las fichas de un Usuario de un albon especifico
-Get: http://localhost:8080/rest/index.php/album/obtener_informacion_albun_usuario/59915aa41a1ead79412005bf8ebc157d19515871/3/1
-https://app-1520633753.000webhostapp.com/rest/index.php/album/obtener_informacion_albun_usuario/59915aa41a1ead79412005bf8ebc157d19515871/3/1
-Parametro 1 : Token
-Parametro 2 : IdUsuario
-Parametro 3 : IdAlbum
+Get: http://localhost:8080/rest/index.php/album/obtener_informacion_albun_usuario/1
+https://app-1520633753.000webhostapp.com/rest/index.php/album/obtener_informacion_albun_usuario/1
+Parametro 1 : IdUsuario
+
 
 // Consulta de las fichas de un Usuario de un albon especifico y filtro por cantidad
-Get: http://localhost:8080/rest/index.php/album/obtener_informacion_albun_usuario_cantidad/59915aa41a1ead79412005bf8ebc157d19515871/3/1/1
-https://app-1520633753.000webhostapp.com/rest/index.php/album/obtener_informacion_albun_usuario_cantidad/59915aa41a1ead79412005bf8ebc157d19515871/3/1/1
-Parametro 1 : Token
-Parametro 2 : IdUsuario
-Parametro 3 : IdAlbum
-Parametro 4 : Cantidad
+Get:
+http://localhost:8080/rest/index.php/album/obtener_informacion_albun_usuario_cantidad/1/0/0
+https://app-1520633753.000webhostapp.com/rest/index.php/album/obtener_informacion_albun_usuario_cantidad/1/0/0
+Parametro 1 : IdUsuario
+Parametro 2 : RangoInicial
+Parametro 3 : RangoFinal
 
 // Crear usuario
 post: http://localhost:8080/rest/index.php/usuario/crear_usuario_geo/
-https://app-1520633753.000webhostapp.com/rest/index.php/usuario/crear_usuario/
+https://app-1520633753.000webhostapp.com/rest/index.php/usuario/crear_usuario_geo/
+http://www.fingergroup.com.co/rest/index.php/usuario/crear_usuario_geo/
 
 parametros:
 * USUA_NOMBRE
@@ -52,11 +48,17 @@ parametros:
 * USUA_IDIOMA es opcional
 
 // Enviar email
-post: http://localhost:8080/rest/index.php/mail/enviar_email/
+post: http://localhost:8080/rest/index.php/mail/enviar_email2/
+http://www.fingergroup.com.co/rest/index.php/mail/enviar_email2/
+
+http://localhost:8080/rest/index.php/mail/enviar_email3/
+http://www.fingergroup.com.co/rest/index.php/mail/enviar_email3/
+
 
 // Validar usuario LOGIN
 post: http://localhost:8080/rest/index.php/usuario/login_usuario_geo/
 https://app-1520633753.000webhostapp.com/rest/index.php/usuario/login_usuario_geo/
+http://www.fingergroup.com.co/rest/index.php/usuario/login_usuario_geo/
 Parametros:
 * USUA_CORREO
 * USUA_CLAVE
@@ -68,7 +70,7 @@ http://localhost:8080/rest/index.php/ficha/registrar_ficha/
 https://app-1520633753.000webhostapp.com/rest/index.php/ficha/registrar_ficha/
 parametros:
 * USUA_ID
-* LAMI_ID
+* NUMERO_LAMINA
 
 // Eliminar ficha
 Post:
@@ -76,7 +78,7 @@ http://localhost:8080/rest/index.php/ficha/eliminar_ficha/
 https://app-1520633753.000webhostapp.com/rest/index.php/ficha/eliminar_ficha/
 parametros:
 * USUA_ID
-* LAMI_ID
+* NUMERO_LAMINA
 
 // Actualizar Posicion Usuario
 post:
@@ -93,6 +95,13 @@ http://localhost:8080/rest/index.php/album/obtener_informacion_usuarios_fichas/
 https://app-1520633753.000webhostapp.com/rest/index.php/album/obtener_informacion_usuarios_fichas/
 parametros:
 * USUA_ID
-* LAMI_ID_1: Obligatorio
-* LAMI_ID_2: opcional
-* LAMI_ID_3: opcional
+* NUMERO_LAMINA1: Obligatorio
+* NUMERO_LAMINA2: opcional
+* NUMERO_LAMINA3: opcional
+
+// Consulta informacion estadistica usuarios
+post:
+http://localhost:8080/rest/index.php/usuario/obtener_informacion_usuario
+https://app-1520633753.000webhostapp.com/rest/index.php/usuario/obtener_informacion_usuario
+parametros:
+* USUA_ID : 1
